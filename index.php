@@ -50,7 +50,12 @@
                     </div>
                 </div>
             </div>
-            <a class="carousel-control left" href="#slider-fullwidth" data-slide="prev"><span class="icon-arrow-left"></span></a> <a class="carousel-control right" href="#slider-fullwidth" data-slide="next"><span class="icon-arrow-right"></span></a>
+            <a class="carousel-control left" href="#slider-fullwidth" data-slide="prev">
+                <span class="icon-arrow-left"></span>
+            </a>
+            <a class="carousel-control right" href="#slider-fullwidth" data-slide="next">
+                <span class="icon-arrow-right"></span>
+            </a>
         </div>
     </div>
     <div class="content no-mrg">
@@ -275,7 +280,11 @@
                         <div id="pgc-7788-3-0" class="panel-grid-cell">
                             <div id="panel-7788-3-0-0" class="so-panel widget widget_black-studio-tinymce widget_black_studio_tinymce panel-first-child panel-last-child" data-index="7">
                                 <div class="animate animate-1 panel-widget-style panel-widget-style-for-7788-3-0-0">
-                                    <div class="textwidget"><a href="https://www.demo.themicart.com/interico-wp/wp-content/uploads/2018/05/image-portfolio-3.jpg"><img class="alignnone wp-image-11439 size-full" src="https://www.demo.themicart.com/interico-wp/wp-content/uploads/2018/05/image-portfolio-3.jpg" alt="" width="555" height="740" /></a></div>
+                                    <div class="textwidget">
+                                        <a href="https://www.demo.themicart.com/interico-wp/wp-content/uploads/2018/05/image-portfolio-3.jpg">
+                                            <img class="alignnone wp-image-11439 size-full" src="https://www.demo.themicart.com/interico-wp/wp-content/uploads/2018/05/image-portfolio-3.jpg" alt="" width="555" height="740" />
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
