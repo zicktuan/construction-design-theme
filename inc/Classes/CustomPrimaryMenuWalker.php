@@ -54,7 +54,7 @@ class CustomPrimaryMenuWalker extends Walker_Nav_Menu {
         $title = apply_filters( 'the_title', $item->title, $item->ID );
 
         $item_output = $args->before
-            . "<a $attributes class='menu-link'>"
+            . "<a $attributes>"
             . $args->link_before
             . $title
             . '</a> '

@@ -1,4 +1,8 @@
-    <footer id="footer" class="footer-dark">
+<?php
+    global $myplugin;
+    $optionTheme  = $myplugin->themeSettings->getSettings();
+?>
+<footer id="footer" class="footer-dark">
         <div class="main-footer">
             <div class="container">
                 <div class="row">
@@ -65,8 +69,8 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="footer-logo-box">
-                        <img id="footer-logo" src="https://www.demo.themicart.com/interico-wp/wp-content/themes/interico/img/logo-white.png" srcset="https://www.demo.themicart.com/interico-wp/wp-content/themes/interico/img/logo-white.png, https://www.demo.themicart.com/interico-wp/wp-content/themes/interico/img/logo-white2x.png 2x" alt="Interico">
-                        <span class="copyright-text">2020. All Rights Reserved</span>
+                        <img id="footer-logo" src="<?php echo !empty($optionTheme['awe_footer_logo']) ? esc_url($optionTheme['awe_footer_logo']) : '' ?>" alt="Interico">
+                        <span class="copyright-text"><?php echo !empty($optionTheme['awe_footer_copyright']) ? $optionTheme['awe_footer_copyright'] : '' ?></span>
                     </div>
                 </div>
                 <div class="col-md-6">

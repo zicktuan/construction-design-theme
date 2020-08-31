@@ -11,8 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 *
 * Class after setup theme
 */
-// file nay de setup cac setting luc active cai theme len nhe.
-// vv/ noi chung ong can luc active len no lam gi thi viet vao day.
+
 class AfterSetupTheme{
 
 	public function __construct(){
@@ -32,7 +31,6 @@ class AfterSetupTheme{
 
 		add_theme_support( 'automatic-feed-links' );
 
-		// set kich thuoc anh upload. biet roi ys gi. them vao day
 		add_theme_support( 'post-thumbnails' );
 
         add_theme_support( 'menus' );
@@ -45,7 +43,7 @@ class AfterSetupTheme{
 		// dang ky menu
 		register_nav_menus(
 			array(
-				'awe-header-menu'   => __( 'Primary Menu', 'bookawesome' ),
+				'awe-main-menu'   => __( 'Primary Menu', 'bookawesome' ),
 				'awesome-footer-menu' => __( 'Footer Menu', 'bookawesome' )
 			)
 		);
