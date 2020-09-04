@@ -2,6 +2,11 @@
     global $myplugin;
     $optionTheme  = $myplugin->themeSettings->getSettings();
 ?>
+<a href="#" class="cta-footer">
+    <div>
+        <h2>Get a free quote for your project. Click here.</h2>
+    </div>
+</a>
 <footer id="footer" class="footer-dark">
         <div class="main-footer">
             <div class="container">
